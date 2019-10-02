@@ -1,0 +1,91 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.clearfix::after {
+	content: ' ';
+	display: block;
+	width: 100%;
+	clear: both;
+}
+#wrapper {
+	background-color: #ebeb;
+}
+#layout1 {
+	width: 100%;
+	height: 54px;
+	background-color: orange;
+}
+#logo {
+	border: 2px solid black;
+	margin: 2px;
+	height: 50px;
+	width: 15%;
+	background-color: red;
+	float: left;
+}
+#search {
+	border: 2px solid black;
+	margin: 2px;
+	height: 50px;
+	width: 35%;
+	background-color: red;
+	float: left;
+}
+#menu1 {
+	border: 2px solid black;
+	margin: 2px;
+	height: 50px;
+	width: 49%;
+	background-color: red;
+	float: left;
+}
+.menu {
+	border: 1px solid black;
+}
+.menu div div {
+	width: 11%;
+	padding: 5px;
+	float: left;
+	height: 45px;
+}
+.menu div div div {
+	color: #ff0099;
+	background-color: gray;
+	height: 100%;
+	width: 100%; 
+	float: left;
+}
+.dienthoai div div {
+	width: 33%;
+	padding: 20px;
+	float: left;
+	height: 250px;
+}
+.dienthoai div div div {
+	color: #ff0099;
+	background-color: gray;
+	height: 100%;
+	width: 100%; 
+	float: left;
+}
+.xemthem div div {
+	width: 20%;
+	padding: 20px;
+	float: left;
+	height: 150px;
+}
+.xemthem div div div {
+	color: #ff0099;
+	background-color: gray;
+	height: 100%;
+	width: 100%; 
+	float: left;
+}
+#footer {
+	height: 100px;
+	width: 100%;
+	background-color: gray;
+	color: #ff0099;
+}
